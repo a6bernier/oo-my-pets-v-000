@@ -32,11 +32,11 @@ class Owner
   end
 
   def buy_fish(name)
-    Fish.new
+    Fish.new(name)
     #make instance of the fish and initialize with name
     #Associate new fish instance to the owner by adding to the array-valu
     #of the @pets hash
-    
+
   end
 binding.pry
 
