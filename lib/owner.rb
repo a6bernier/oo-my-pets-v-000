@@ -7,13 +7,12 @@ class Owner
 
   @@all = []
 
-  def initialize(owners, name)
+  def initialize(owners)
     @pets = {fishes: [], cats: [], dogs: []}
     @@all << self
     @species = "human"
     @say_species = "I am a human."
     @owners = []
-    @name = name
   end
 
   def self.all
