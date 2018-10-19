@@ -31,7 +31,9 @@ class Owner
     @say_species
   end
 
-
+  def buy_fish
+    @pets
+  end
 
 
 end
