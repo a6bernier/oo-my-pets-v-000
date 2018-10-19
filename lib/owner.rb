@@ -10,7 +10,8 @@ class Owner
   def initialize(owners)
     @pets = {fishes: [], cats: [], dogs: []}
     @@all << self
-    @species = "I am a human."
+    @species = "human"
+    @say_species = "I am a human."
     @owners = []
   end
 
