@@ -32,8 +32,10 @@ class Owner
   end
 
   def buy_fish(name)
-    #takes fish instance from Fish class
-    #places fish instance.name into the pets hash
+    Fish.new
+    #make instance of the fish and initialize with name
+    #Associate new fish instance to the owner by adding to the array-valu
+    #of the @pets hash 
   end
 
 
