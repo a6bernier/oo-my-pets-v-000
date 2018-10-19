@@ -36,8 +36,8 @@ class Owner
     #make instance of the fish and initialize with name
     #Associate new fish instance to the owner by adding to the array-valu
     #of the @pets hash
-    binding.pry
+    
   end
-
+binding.pry
 
 end
