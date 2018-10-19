@@ -31,8 +31,9 @@ class Owner
     @say_species
   end
 
-  def buy_fish
-    @pets
+  def buy_fish(name)
+    #takes fish instance from Fish class
+    #places fish instance.name into the pets hash
   end
 
 
