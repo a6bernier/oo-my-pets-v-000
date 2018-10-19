@@ -30,10 +30,7 @@ class Owner
   def say_species
     @say_species
   end
-  #
-  # def name=(name)
-  #   @name = name
-  # end
+
 
 
 
